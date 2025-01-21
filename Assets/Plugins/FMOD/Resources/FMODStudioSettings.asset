@@ -337,7 +337,7 @@ MonoBehaviour:
     Value: 32
   Plugins: []
   MasterBanks:
-  - Desktop/Master Bank
+  - Master Bank
   - Desktop/Master Bank
   Banks:
   - Bank A
