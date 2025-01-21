@@ -1,0 +1,538 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &611484065645193432
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 748197335392119785}
+  - component: {fileID: 6523310562956857218}
+  m_Layer: 0
+  m_Name: MusicMenu
+  m_TagString: MusicMenu
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &748197335392119785
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 611484065645193432}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -3.1067467, y: 2.232813, z: 0.0063452832}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4318290237554146966}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6523310562956857218
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 611484065645193432}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -44617134
+      Data2: 1164974319
+      Data3: -2069527902
+      Data4: 1901188382
+    Path: event:/Music/Menu/Menu
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 1
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!1 &2625683428649236813
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2799588366621092780}
+  - component: {fileID: 8933774022352548864}
+  m_Layer: 0
+  m_Name: Music02
+  m_TagString: Music02
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2799588366621092780
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2625683428649236813}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4318290237554146966}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8933774022352548864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2625683428649236813}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1313782969
+      Data2: 1169739557
+      Data3: 845047437
+      Data4: -108241581
+    Path: event:/Music/Music 2 Cave/Music 2 Cave
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 1
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!1 &3071225590836398989
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5138542554865848846}
+  - component: {fileID: 3257842776572977270}
+  m_Layer: 0
+  m_Name: MusicBoss
+  m_TagString: MusicBoss
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5138542554865848846
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3071225590836398989}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4318290237554146966}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3257842776572977270
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3071225590836398989}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -501265811
+      Data2: 1222435710
+      Data3: -1091363395
+      Data4: -850599458
+    Path: event:/Music/Boss/BossArea
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 1
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!1 &4318290235462787551
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4318290235462787489}
+  - component: {fileID: 4318290235462787550}
+  m_Layer: 0
+  m_Name: Music
+  m_TagString: Music
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4318290235462787489
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4318290235462787551}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4318290237554146966}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4318290235462787550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4318290235462787551}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -2123292575
+      Data2: 1157919856
+      Data3: -294974306
+      Data4: 1226929948
+    Path: event:/Music/Music 1 Outdoor/Music 1 Outdoor
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 1
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!1 &4318290237544591131
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4318290237544591133}
+  - component: {fileID: 4318290237544591130}
+  - component: {fileID: 220457829583902022}
+  m_Layer: 0
+  m_Name: Ambiance
+  m_TagString: Ambiance
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4318290237544591133
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4318290237544591131}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4318290237554146966}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4318290237544591130
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4318290237544591131}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 752854834
+      Data2: 1225456052
+      Data3: 1076731264
+      Data4: -724260907
+    Path: event:/Ambiance/Ambiance_Manager
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 1
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
+--- !u!114 &220457829583902022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4318290237544591131}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e964efe0e8cd4ddba522c37df205aa5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tagName: Player
+--- !u!1 &4318290237554146964
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4318290237554146966}
+  - component: {fileID: 4318290237554146967}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: AudioManager
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4318290237554146966
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4318290237554146964}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4318290235462787489}
+  - {fileID: 2799588366621092780}
+  - {fileID: 5138542554865848846}
+  - {fileID: 4318290237544591133}
+  - {fileID: 748197335392119785}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4318290237554146967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4318290237554146964}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0157286c0600e4435809725beecb3d40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  combatTimerLength: 7
+  eventEmitters:
+    music: {fileID: 4318290235462787550}
+    music02: {fileID: 8933774022352548864}
+    musicBoss: {fileID: 3257842776572977270}
+    ambiance: {fileID: 4318290237544591130}
+    musicMenu: {fileID: 6523310562956857218}
+  playerFootsteps:
+    Guid:
+      Data1: 1857598397
+      Data2: 1253640006
+      Data3: -1693451089
+      Data4: 1499706986
+    Path: event:/SFX/Player/Player_Footsteps
+  playerJump:
+    Guid:
+      Data1: 823691816
+      Data2: 1311503626
+      Data3: 2057113764
+      Data4: 2065171117
+    Path: event:/SFX/Player/Player_Jump
+  playerLand:
+    Guid:
+      Data1: -1249113631
+      Data2: 1149918638
+      Data3: -1969184085
+      Data4: -1284329003
+    Path: event:/SFX/Player/Player_Land
+  playerAttackMelee:
+    Guid:
+      Data1: -1267137789
+      Data2: 1134634127
+      Data3: -2011277647
+      Data4: -799242560
+    Path: event:/SFX/Player/Player_Attack_Melee
+  playerAttackRanged:
+    Guid:
+      Data1: 1179602920
+      Data2: 1175599422
+      Data3: 1304373913
+      Data4: -38752512
+    Path: event:/SFX/Player/Player_Attack_Ranged
+  playerHurt:
+    Guid:
+      Data1: -38250884
+      Data2: 1277662103
+      Data3: 256784558
+      Data4: 1281280920
+    Path: event:/SFX/Player/Player_Damage_Generic
+  wallDestroy:
+    Guid:
+      Data1: -827916814
+      Data2: 1332020858
+      Data3: 199711108
+      Data4: -840402789
+    Path: event:/SFX/Objects & Interactables/Object_Wall_Destruct
+  pickupHealth:
+    Guid:
+      Data1: 712891913
+      Data2: 1209131496
+      Data3: 1573540282
+      Data4: -1250670388
+    Path: event:/SFX/Objects & Interactables/Object_Pickup_Health
+  doorSwitch:
+    Guid:
+      Data1: -814039136
+      Data2: 1318593306
+      Data3: -1741669712
+      Data4: -975004630
+    Path: event:/SFX/Objects & Interactables/Object_Switch_Trigger
+  doorOpen:
+    Guid:
+      Data1: 1917241597
+      Data2: 1087232114
+      Data3: 1108743825
+      Data4: 437067952
+    Path: event:/SFX/Objects & Interactables/Object_Door_Open
+  pickupKey:
+    Guid:
+      Data1: -814039136
+      Data2: 1318593306
+      Data3: -1741669712
+      Data4: -975004630
+    Path: event:/SFX/Objects & Interactables/Object_Switch_Trigger
+  pressurePad:
+    Guid:
+      Data1: -2089369701
+      Data2: 1128250594
+      Data3: 692146863
+      Data4: 2101790563
+    Path: event:/SFX/Objects & Interactables/Object_Pressure_Plate
+  acidSplash:
+    Guid:
+      Data1: -1008016355
+      Data2: 1152753787
+      Data3: 1969744056
+      Data4: -1878216579
+    Path: event:/Ambiance/Ambiance_Acid_Pool_Splash
+  boxPush:
+    Guid:
+      Data1: -561574307
+      Data2: 1088967336
+      Data3: -769547608
+      Data4: 1725292411
+    Path: event:/SFX/Objects & Interactables/Object_Box_Push
+  menuClick:
+    Guid:
+      Data1: -113714920
+      Data2: 1277964438
+      Data3: -2037248096
+      Data4: -91950419
+    Path: event:/SFX/UI/Menu_Button_Generic
+  menuStartGame:
+    Guid:
+      Data1: -1015308169
+      Data2: 1143757789
+      Data3: -2038144630
+      Data4: -517665067
+    Path: event:/SFX/UI/Menu_Button_GameStart
+  enemyRanged:
+    Guid:
+      Data1: -50486130
+      Data2: 1216258166
+      Data3: -1805880958
+      Data4: -296837291
+    Path: event:/SFX/Enemies/Spitter/Enemy_Spitter_Attack_Ranged
+  enemyMelee:
+    Guid:
+      Data1: 1880109072
+      Data2: 1082312611
+      Data3: -1877202267
+      Data4: -143679638
+    Path: event:/SFX/Enemies/Chomper/Enemy_Chomper_Attack_Melee
+  enemyDeath:
+    Guid:
+      Data1: 239518886
+      Data2: 1219923912
+      Data3: -564437090
+      Data4: -914482641
+    Path: event:/SFX/Enemies/EnemyShared/Enemy_Die
+  pickupWeapon:
+    Guid:
+      Data1: 2018927327
+      Data2: 1136200723
+      Data3: 4727944
+      Data4: 154013732
+    Path: event:/Music/Stingers/Stinger Weapon pickup
+  stingerGameOver:
+    Guid:
+      Data1: -959802003
+      Data2: 1279326795
+      Data3: -1798847049
+      Data4: -1682060626
+    Path: event:/Music/Stingers/Stinger Game over
+  snapshotPoison:
+    Guid:
+      Data1: 1506787345
+      Data2: 1157970177
+      Data3: -414229118
+      Data4: -210472080
+    Path: event:/Music/Snapshots/Snapshot Poison
+  combatState: 0
+  enemyCount: 0
