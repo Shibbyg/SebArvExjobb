@@ -269,10 +269,10 @@ MonoBehaviour:
   m_Name: FMODStudioSettings
   m_EditorClassIdentifier: 
   SwitchSettingsMigration: 1
-  HasSourceProject: 1
-  HasPlatforms: 1
-  sourceProjectPath: ../ME219G_FMOD_Music_2023/2D_GameKit_Music_2023.fspro
-  sourceBankPath: ../ME219G_FMOD_Music_2023/Build
+  HasSourceProject: 0
+  HasPlatforms: 0
+  sourceProjectPath: ../../../FMOD Projects/SebArvExjobbFMOD/SebArvExjobbFMOD/2D_GameKit_Music_2023.fspro
+  sourceBankPath: Assets/Plugins/FMOD/Banks/Desktop
   SourceBankPathUnformatted: 
   BankRefreshCooldown: 5
   ShowBankRefreshWindow: 1
@@ -337,8 +337,11 @@ MonoBehaviour:
     Value: 32
   Plugins: []
   MasterBanks:
-  - Master Bank
-  Banks: []
+  - Desktop/Master Bank
+  - Desktop/Master Bank
+  Banks:
+  - Bank A
+  - Desktop/Bank A
   BanksToLoad: []
   LiveUpdatePort: 9264
   EnableMemoryTracking: 0
